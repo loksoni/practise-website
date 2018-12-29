@@ -1,0 +1,143 @@
+h1 {
+  color: rgb(0, 0, 0);
+}
+p {
+  color: darkslategray;
+}
+#mainHeader {
+  text-align: center;
+  background-color: rgb(87, 87, 87);
+  color: rgb(0, 0, 0);
+  padding: 1.05vw;
+  font-size: 2.1vw;
+  font-family: 'Montserrat', sans-serif;
+  
+}
+body {
+  background-color: rgb(233, 231, 231);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+nav, #mainHeader{
+  position: sticky;
+  top: 0;
+}
+hr.main{
+  position:sticky;
+  top:63.5px;
+}
+nav {
+  padding: 1.6vw;
+  font-size: 1.5vw;
+  background-color: coral;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-family: 'ZCOOL XiaoWei', serif;
+  
+}
+nav, #mainHeader{
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+}
+
+h1{
+  font-size: 2.5vw;
+}
+
+p{
+  font-size: 1.5vw;
+}
+
+img.main{
+  max-width: 50%;
+  height: auto;
+}
+hr.main{
+  border: 2px solid rgb(32, 32, 32);
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
+  padding-left: 2px;
+  padding-right: 2px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: darkslateblue;
+}
+a:hover {
+  color: black;
+}
+a:active {
+  color: rgb(172, 157, 157);
+}
+
+.clr {
+  clear: both;
+}
+.button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: rgb(32, 32, 32);
+}
+.button:active {
+  background-color: rgb(87, 87, 87);
+}
+
+.my-form {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.my-form,
+.form-group {
+  padding-bottom: 15px;
+  border-radius: 4px;
+}
+
+.my-form label {
+  display: block;
+  
+}
+.my-form input, .my-form textarea {
+  padding: 8px;
+  width: 40%;
+  resize: vertical;
+  border-radius: 4px;
+}
+
+.my-form select{
+  width: 20%;
+  border-radius: 4px;
+}
+
+.block {
+  width: 55%;
+  float: right;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+footer{
+  background-color: coral;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.image{
+  vertical-align: 18px;
+}
